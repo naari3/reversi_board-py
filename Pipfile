@@ -10,6 +10,8 @@ numpy = "*"
 pylint = "*"
 "autopep8" = "*"
 ptpython = "*"
+wheel = "*"
+twine = "*"
 
 [requires]
 python_version = "3.6"
