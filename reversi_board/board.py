@@ -7,7 +7,7 @@ class ReversiBoard(object):
 
     def __init__(self, resume_data=None):
         super(ReversiBoard, self).__init__()
-        if resume_data:
+        if resume_data is not None:
             self.board = self.resume_board(resume_data)
         else:
             self.board = self.create_board()
